@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+<form action="/login" method="post" id="form">
+    <input type="email" name="email" placeholder="Email Go here" required id="email">
+    <input type="password" name="pass" placeholder="Pass GO Here" required id="pass">
+    <input type="number" name="articleId" placeholder="Article id go here" required id="article">
+
+    <button type="submit">
+        Submit
+    </button>
+</form>
+
+<script src="javascripts/jquery/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+
+        /*$('#form').submit(function (e) {
+            e.preventDefault(e);
+
+            var email = $('#email').val();
+            var pass = $('#pass').val();
+            var id = $('#article').val();
+            window.location.replace("user/" + email + '/' + pass + '/' + id);
+        })*/
+    })
+</script>
+</body>
+</html>
